@@ -1,0 +1,17 @@
+{
+  "vtex.menu@2.x:menu#top-header": {
+    "props": {
+      "blockClass": "top-header-title"
+    },
+    "children": [
+      "rich-text#top-header-title"
+    ]
+  },
+
+  "rich-text#top-header-title": {
+    "props": {
+      "text": "Comprá en 3, 6, 12 y 18 cuotas sin interés con tarjetas bancarias. Promociones acumulables con descuentos.",
+      "blockClass": "top-header-title"
+    }
+  }
+}

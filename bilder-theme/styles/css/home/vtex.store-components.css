@@ -1,0 +1,25 @@
+/* DEALS */
+
+.imageElement--deals {
+    height: 70%;
+    margin: 30px 0 !important;
+}
+
+/* FIN DEALS */
+
+/* PRODUCT */
+
+.imageElement--image_product {
+    border-radius: 24px !important;
+}
+
+/* FIN PRODUCT */
+
+/* PROMOCIONAL */
+
+.imageElement--promocional{
+    border-radius: 23px;
+    height: 100%;
+}
+
+/* FIN PROMOCIONAL */

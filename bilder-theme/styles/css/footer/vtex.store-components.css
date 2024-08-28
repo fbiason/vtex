@@ -1,0 +1,19 @@
+.imageElement--logoImg {
+    background-color: #571E98;
+    padding: 0 5px;
+    border-radius: 25px;
+    width: 120px;
+    height: 52px !important;
+    flex-shrink: 0;
+}
+
+.imageElement--logoNetwork {
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.imageElement--qr {
+    position: absolute !important;
+    width: 45px;
+    filter: brightness(1);
+}

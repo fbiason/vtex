@@ -1,0 +1,16 @@
+.paragraph--related-products-title {
+    color: #3136A3;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    height: fit-content;
+    margin: 0 !important;
+}
+.wrapper--related-products-title{
+    height: fit-content !important;
+}
+.container--related-products-title{
+    margin-bottom: 30px;
+}

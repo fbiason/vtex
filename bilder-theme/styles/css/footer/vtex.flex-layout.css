@@ -1,0 +1,41 @@
+.flexRow--menu-row {
+    background: #B7D612 !important;
+    padding: 20px 10%;
+}
+
+.flexRowContent--media-networks {
+    padding: 0 90px;
+}
+
+.flexColChild--media-networks {
+    display: flex;
+    justify-content: center;
+    border-bottom: #571E98 2px solid;
+}
+
+.flexColChild--media-container {
+    height: 50px !important;
+}
+
+.flexRow--credits {
+    background: #3136A3;
+}
+
+.flexRowContent--redclover .stretchChildrenWidth {
+    width: fit-content;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--credits {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexRowContent--credits .stretchChildrenWidth {
+    width: fit-content !important;
+}
+

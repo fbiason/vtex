@@ -1,0 +1,12 @@
+.imageElement--about-img-s1 {
+    border-radius: 136px;
+    background: linear-gradient(180deg, #C7DE00 44.79%, #6A7414 100%);
+    top: 20px
+}
+.imageElement--about-banner {
+    border-radius: 63px;
+    margin-top: 60px;
+}
+.imageElement--img-contact {
+    border-radius: 57px;
+}

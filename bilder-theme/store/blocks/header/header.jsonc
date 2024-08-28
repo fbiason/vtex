@@ -1,0 +1,250 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-header-desktop",
+      "sticky-layout#desktop"
+    ]
+  },
+  "flex-layout.row#top-header-desktop": {
+    "props": {
+      "blockClass": "top-header",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#top-header"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop-1",
+      "flex-layout.row#desktop-2"
+    ]
+  },
+  "flex-layout.row#desktop-1": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#line-separator",
+      "drawer#desktop-menu",
+      "rich-text#categories-label",
+      "search-bar",
+      "flex-layout.col#icons-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.col#line-separator": {
+    "props": {
+      "blockClass": "line-separator"
+    }
+  },
+  "drawer#desktop-menu": {
+    "props": {
+      "blockClass": "hamburger-menu"
+    },
+    "children": [
+      "menu#drawer",
+      "vtex.menu@2.x:menu#menu"
+    ]
+  },
+  "rich-text#categories-label": {
+    "props": {
+      "text": "Categorías",
+      "blockClass": "categories-label"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/4359e663-1ad9-4402-afd6-4fba2050a442___7b7959e4fc779e7094bbce64f06f53b0.png"
+    }
+  },
+  "flex-layout.col#icons-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#icons-desktop"
+    ]
+  },
+  "flex-layout.row#icons-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "icon-heart",
+      "minicart.v2",
+      "login#login"
+    ]
+  },
+  "icon-heart#icon-heart": {
+    "props": {
+      "blockClass": "icon-heart"
+    }
+  },
+    "login#login": {
+      "props": {
+        "iconLabel": "Hola, Jorge!",
+        "showIconProfile": true
+      }
+    },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer#mobile-menu",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer#mobile-menu": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-tiendas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#desktop-2": {
+    "props": {
+      "blockClass": "menu-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#location",
+      "menu-item#como-comprar",
+      "menu-item#oportunidades",
+      "menu-item#outlet",
+      "menu-item#novedades",
+      "menu-item#patio-jardin",
+      "menu-item#zonda"
+    ]
+  },
+  "flex-layout.col#location": {
+    "children": [
+      "rich-text#location"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#location": {
+    "props": {
+      "text": "Estás en <strong>Gran Mendoza</strong>",
+      "blockClass": "location-text"
+    }
+},
+"menu-item#como-comprar": {
+  "props": {
+    "text": "Cómo comprar",
+    "href": "/como-comprar",
+    "blockClass": "menu-button"
+  }
+},
+"menu-item#oportunidades": {
+  "props": {
+    "text": "Oportunidades",
+    "href": "/oportunidades",
+    "blockClass": "menu-button"
+  }
+},
+"menu-item#outlet": {
+  "props": {
+    "text": "Outlet de Decoración",
+    "href": "/outlet",
+    "blockClass": "menu-button"
+  }
+},
+"menu-item#novedades": {
+  "props": {
+    "text": "Novedades",
+    "href": "/novedades",
+    "blockClass": "menu-button"
+  }
+},
+"menu-item#patio-jardin": {
+  "props": {
+    "text": "Patio y Jardín",
+    "href": "/patio-jardin",
+    "blockClass": "menu-button"
+  }
+},
+"menu-item#zonda": {
+  "props": {
+    "text": "Zonda",
+    "href": "/zonda",
+    "blockClass": "menu-button"
+  }
+}
+}

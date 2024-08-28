@@ -1,0 +1,260 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#top-banner",
+      "flex-layout.row#deals",
+      "flex-layout.row#categories",
+      "flex-layout.row#productscontainer",
+      "flex-layout.row#productscontainer-reverse",
+      "__fold__",
+      "flex-layout.row#promocional",
+      "rich-text#title-tiendasbilder",
+      "rich-text#subtitle-tiendasbilder",
+      "flex-layout.row#marcascontainer",
+      "flex-layout.row#productscontainer",
+      "flex-layout.row#productscontainer-reverse",
+      "rich-text#title-marcas",
+      "rich-text#subtitle-marcas",
+      "flex-layout.row#marcas",
+      "flex-layout.row#newsletter-container" 
+    ]
+  },
+  "list-context.image-list#top-banner": {
+    "children": [
+      "slider-layout#top-banner-images"
+    ],
+    "props": {
+      "height": 363,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/395e496a-a1ac-43b4-88f3-dadeafc76b03___e1dfcbdbd30baf3c77d8a54d103a1b9d.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#top-banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "slider"
+    }
+  },
+  "flex-layout.row#productscontainer": {
+    "props": {
+      "blockClass": "product-container"
+    },
+    "children": [
+      "flex-layout.row#productsbanner",
+      "list-context.product-list#losmasvendidos"
+    ]
+  },
+  "flex-layout.row#productscontainer-reverse": {
+    "props": {
+      "blockClass": "product-container"
+    },
+    "children": [
+      "list-context.product-list#losmasvendidos",
+      "flex-layout.row#productsbanner-reverse"
+    ]
+  },
+  "flex-layout.row#productsbanner": {
+    "props": {
+      "blockClass": ["banner-container", "banner-normal"]
+    },
+    "children": [
+      "image#product",
+      "rich-text#texto-banner"
+    ]
+  },
+  "flex-layout.row#productsbanner-reverse": {
+    "props": {
+      "blockClass": "banner-container"
+    },
+    "children": [
+      "image#product",
+      "rich-text#texto-banner"
+    ]
+  },
+  "rich-text#texto-banner": {
+    "props": {
+      "blockClass": "text_banner",
+      "text": "Los más Vendidos"
+    }
+  },
+  "image#product": {
+    "props": {
+      "blockClass": "image_product",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/db075595-baad-4cd5-ae4d-c262e36f8e0f___be8f0655707908eda96dffae765386fb.png",
+      "maxHeight": 382
+    }
+  },
+  "list-context.product-list#losmasvendidos": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#products"
+    ],
+    "props": {
+      "blockClass": "product-list",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#products": {
+    "props": {
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#promocional":{
+    "props": {
+      "blockClass": "promocional"
+    },
+    "children": [
+      "image#promocional"
+    ]
+  },
+  "image#promocional": {
+    "props": {
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/a623681b-3fd6-4293-8aa4-39e871882e37___b20db61b497bc8966f5392fd943270c8.jpg",
+      // "maxHeight": "",
+      // "maxWidth": "",
+      "blockClass": "promocional"
+    }
+  },
+  "flex-layout.row#marcascontainer": {
+    "props": {
+      "blockClass": "marcas-slider"
+    },
+    "children": [
+      "list-context.image-list#slider-marcas"
+    ]
+  },
+  "list-context.image-list#slider-marcas": {
+    "children": [
+      "slider-layout#slider-marcas"
+    ],
+    "props": {
+      "height": 363,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/36d4cb10-c70a-45ef-8d4f-842c0ad9416a___f51466c237faa87f6ec5de9df26946c5.jpg",
+          "mobileImage": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/36d4cb10-c70a-45ef-8d4f-842c0ad9416a___f51466c237faa87f6ec5de9df26946c5.jpg"
+        },
+        {
+          "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/c147adb5-7a9d-4406-97fb-aae946e4a04c___7ffe0e308a8ce1bc2e08010156d4b934.jpg",
+          "mobileImage": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/c147adb5-7a9d-4406-97fb-aae946e4a04c___7ffe0e308a8ce1bc2e08010156d4b934.jpg"
+        },
+        {
+          "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/2dc61030-f5cc-4483-bdb7-e6f3d9b3caca___459ca350f2d4026710fd5948a5d328ac.jpg",
+          "mobileImage": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/2dc61030-f5cc-4483-bdb7-e6f3d9b3caca___459ca350f2d4026710fd5948a5d328ac.jpg"
+        },
+        {
+          "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/15b08320-6a1b-42ff-bf12-f139b876a7b6___5bf456b069f99187fd02eb3a032ce397.jpg",
+          "mobileImage": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/15b08320-6a1b-42ff-bf12-f139b876a7b6___5bf456b069f99187fd02eb3a032ce397.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-marcas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "slider-marcas"
+    }
+  },
+  "flex-layout.row#newsletter-container": {
+    "props": {
+      "blockClass": "newsletter-container"
+    },
+    "children": [
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#newsletter": {
+    "props": {
+      "blockClass": "newsletter"
+    },
+    "children": [
+      "image#newsletter",
+      "newsletter-form"
+    ]
+  },
+  "image#newsletter": {
+    "props": {
+      "blockClass": "redclover",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/89655427-7632-45e8-93ce-8ca41f8f4919___8ce9dc52d47144f99ca5a22deb90130c.jpg",
+      "maxHeight": 181
+    }
+  },
+  "newsletter-form": {
+    "props": {
+      "blockClass":"newsletter_form"
+    },
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "newsletter-input-email":{
+    "props":{
+      "blockClass": "input-email",
+      "inputLabel": "Suscríbete para recibir tu cupón descuento y las mejores ofertas *",
+      "placeholderText": "Ingresa tu e-mail"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Doy mi consentimiento para recibir descuentos exclusivos y novedades por e-mail. Ver Política de privacidad."
+    }
+  }
+
+}
+

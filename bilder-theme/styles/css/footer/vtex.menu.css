@@ -1,0 +1,36 @@
+.menuContainer--footer,
+.menuContainer--footer-qr {
+    height: 100%;
+    border-left: #571E98 1px solid;
+    padding-left: 30px;
+}
+.menuContainer--footer-qr {
+    display: flex;
+    justify-content: end;
+    background: url("https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/08f8e063-94f9-44f0-a2a3-a87aedeadda3___97f7da36f069c10db2326958d0cc7ff1.svg");
+    background-size: contain;
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.styledLinkContent--footer {
+    color: #000 !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+.menuItem--footer {
+    padding: 0 !important;
+    display: inline-block;
+    min-width: 50px;
+    width: fit-content;
+    margin: 0 6px;
+}
+.styledLinkContainer--footer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.styledLinkContent--footer {
+    color: #e2e2e2;
+    font-size: 13px;
+    font-weight: bold;
+}

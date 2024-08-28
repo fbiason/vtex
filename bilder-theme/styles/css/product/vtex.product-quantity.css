@@ -1,0 +1,56 @@
+.quantitySelectorTitle{
+    display: none;
+}
+.quantitySelectorStepper{
+    width: 125px;
+    padding: 4px 0;
+    border-radius: 29px;
+    border: 2px solid #3136A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+    margin-top: 1px;
+    background-color: transparent;
+    border: none;
+    border-radius: 35px 35px 35px 35px !important;
+    background: #3136A3;
+    width: 30px !important;
+    height: 30px !important;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text) {
+    margin-top: -1px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+    margin-top: 1px;
+    background-color: transparent;
+    border: none;
+    border-radius: 35px 35px 35px 35px !important;
+    background: #3136A3;
+    width: 30px !important;
+    height: 30px !important;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text) {
+    margin-top: -1px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+    background-color: transparent;
+    border: none;
+    color: #3136A3;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    width: 42px;
+}

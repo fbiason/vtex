@@ -1,0 +1,126 @@
+/* product card */
+
+.containerNormal{
+  align-items: center !important;
+  overflow: visible !important;
+}
+.clearLink{
+  height: 310px !important;
+  width: 185px !important;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin: 10px;
+  padding: 0 11px !important;
+}
+.nameContainer{
+  height: 20px;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: start !important;
+  padding-top: 0 !important;
+}
+.image, .imageNormal{
+  height: 146px !important;
+}
+.description{
+  height: 40px !important;
+  margin-top: 10px !important;
+  color: #828282;
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sellingPriceValue--summary{
+  height: 18px !important;
+  max-width: 0 !important;
+}
+
+.buyButtonContainer--buy-button{
+  margin-top: -5px !important;
+  padding: 0 !important;
+  position: relative;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  height: 175px !important;
+  overflow: hidden;
+  border-radius: 38px !important;
+  width: 115px;
+  background-color: #3136A3 !important; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buyButton{
+  margin-left: -10 !important;
+  margin-top: 0px;
+  padding-left: 0 !important;
+}
+:global(.vtex-button__label){
+  padding-left: 15px !important;
+}
+ .buyButtonText--buy-button{
+  height: 16px !important;
+  overflow: hidden;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+} 
+.buyButtonText--buy-button::before {
+  display: block;
+  content: 'Comprar';
+  text-transform: capitalize !important;
+  text-align: left;
+  padding: 0 !important;
+  line-height: 18px;
+}
+
+/* fin product card */ 
+
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2E2E2E;
+}
+
+.container {
+  text-align: start;
+  height: fit-content !important;
+}
+
+/* .imageContainer {
+  text-align: center;
+} */
+
+/* .image {
+  border-radius: 0.25rem;
+} */

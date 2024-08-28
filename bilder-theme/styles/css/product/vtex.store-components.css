@@ -1,0 +1,109 @@
+.productImage{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.productImageTag--main{
+    width: 656px;
+    height: 656px;
+    border-radius: 41px;
+    box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+}
+
+.swiperPaginationClickable,
+.swiper-pagination{
+    bottom: 25px !important;
+}
+
+.swiperBullet{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid #898989;
+}
+.swiperBullet--active{
+    background-color: #898989;
+}
+
+.carouselGaleryThumbs{
+    display: flex;
+    justify-content: center;
+}
+.carouselGaleryThumbs :first-child{
+    width: 100%;
+}
+.carouselGaleryThumbs :first-child :first-child {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 22px;
+}
+.productImagesThumb{
+    width: 103px !important;
+    height: 103px !important;
+    background-color: transparent;
+}
+.thumbImg{
+    width: 103px !important;
+    height: 103px !important;
+    border-radius: 17px;
+    box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+}
+
+.productBrandLogo--marca-product{
+    width: 100px !important;
+    height: auto;
+}
+
+.productBrand {
+    overflow: hidden;
+    color: #828282;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 109.5%;
+    text-transform: uppercase;
+}
+
+.productDescriptionContainer {
+    margin-top: 20px;
+    color: #3F3F3F;
+    font-family: poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+.productDescriptionTitle {
+    display: none;
+}
+.pointerEventsAuto{
+    margin: 0 auto;
+    background: #fff;
+}
+.showMoreButton {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 109.5%;
+    text-transform: uppercase;
+    background: #D9D9D9;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 0!important;
+}
+
+/* .container{
+    margin: 50px;
+}
+.content{
+    margin: 20px;
+} */

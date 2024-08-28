@@ -1,0 +1,11 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  }
+}

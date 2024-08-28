@@ -1,0 +1,208 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": "menu",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#media",
+      "vtex.menu@2.x:menu#menu",
+      "vtex.menu@2.x:menu#enlaces",
+      "vtex.menu@2.x:menu#qr"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#media":{
+    "props": {
+      "blockClass": "media-container"
+    },
+    "children": [
+      "flex-layout.row#logo",
+      "flex-layout.row#social"
+    ]
+  },
+  "flex-layout.row#logo": {
+    "props": {
+      "blockClass": "media-container"
+    },
+    "children": [
+      "image#logo"
+    ]
+  },
+  "image#logo": {
+    "props": {
+      "blockClass": "logoImg",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/4359e663-1ad9-4402-afd6-4fba2050a442___7b7959e4fc779e7094bbce64f06f53b0.png",
+      "maxHeight": 40
+    }
+  },
+  "flex-layout.row#social": {
+    "props": {
+      "height": 70,
+      "blockClass": "media-networks"
+    },
+    "children": [
+      "flex-layout.col#insta",
+      "flex-layout.col#face",
+      "flex-layout.col#twitter",
+      "flex-layout.col#in"
+    ]
+  },
+  "flex-layout.col#insta": {
+    "props": {
+      "height": 40,
+      "blockClass": "media-networks"
+    },
+    "children": [
+      "image#insta"
+    ]
+  },
+  "image#insta": {
+    "props": {
+      "blockClass": "logoNetwork",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/1411a780-a363-4bbf-882d-8dc3df551a6f___ec4011535686cd3d852f8117dc3a0859.png",
+      "maxHeight": 22
+    }
+  },
+  "flex-layout.col#face": {
+    "props": {
+      "height": 40,
+      "blockClass": "media-networks"
+    },
+    "children": [
+      "image#face"
+    ]
+  },
+  "image#face": {
+    "props": {
+      "blockClass": "logoNetwork",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/ea528c20-95d6-4d2a-bce3-a5d9cb2b996e___5e67ac4608f8e36ed2bbd15cdd1c85db.png",
+      "maxHeight": 21
+    }
+  },
+  "flex-layout.col#twitter": {
+    "props": {
+      "height": 40,
+      "blockClass": "media-networks"
+    },
+    "children": [
+      "image#twitter"
+    ]
+  },
+  "image#twitter": {
+    "props": {
+      "blockClass": "logoNetwork",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/36cdbc28-69a3-4499-be66-b2be7e8e7725___cec8730476dccd8d5f1879466b50ea97.png",
+      "maxHeight": 21
+    }
+  },
+  "flex-layout.col#in": {
+    "props": {
+      "height": 40,
+      "blockClass": "media-networks"
+    },
+    "children": [
+      "image#in"
+    ]
+  },
+  "image#in": {
+    "props": {
+      "blockClass": "logoNetwork",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/eb3e48d0-6602-4165-b084-ccbaa87cfae3___9d8871843d5fd9f3fb81436bb41a4fb0.png",
+      "maxHeight": 21
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "props": {
+      "blockClass": "credits"
+    },
+    "children": [
+      "rich-text#credits",
+      "image#redclover",
+      "rich-text#redclover"
+    ]
+  },
+  "rich-text#credits": {
+    "props": {
+      "blockClass": "credits",
+      "text": "Copyright © 2023 - Bilder - Mendoza, Argentina |"
+    }
+  },
+  "flex-layout.row#redclover": {
+    "props": {
+      "blockClass": "redclover"
+    },
+    "children": [
+      "image#redclover",
+      "rich-text#redclover"
+    ]
+  },
+  "image#redclover": {
+    "props": {
+      "blockClass": "redclover",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/15eeccaf-b17b-4b69-ae7d-3e6fb3afa55c___fd5e33d565c132aeebcbbf916b7b464f.svg",
+      "maxHeight": 30
+    }
+  },
+  "rich-text#redclover": {
+    "props": {
+      "blockClass": "redclover",
+      "text": "Red Clover"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}

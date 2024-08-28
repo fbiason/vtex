@@ -1,0 +1,188 @@
+{
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#contact"
+    ]
+  },
+
+  "flex-layout.row#contact": {
+    "props": {
+      "blockClass": ["row-contact"]
+    },
+    "children": [
+      "flex-layout.row#contact-container"
+    ]
+  },
+
+  "flex-layout.row#contact-container": {
+    "props": {
+      "blockClass": [
+        "contact-container"
+      ]
+    },
+    "children": [
+      "flex-layout.row#left-col-contact",
+      "flex-layout.row#rigth-col-contact"
+    ]
+  },
+
+  "flex-layout.row#left-col-contact": {
+    "props": {
+      "blockClass": ["left-col-contact"],
+      "width": "55%"
+    },
+    "children": [
+      "image#img-contact"
+    ]
+  },
+
+  "image#img-contact": {
+    "props": {
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/710d601c-d9fd-4dc7-b576-c0806d36a540___e4b6dde99c0deac22211934c6cf44e07.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "img-contact"
+    }
+  },
+
+  "flex-layout.row#rigth-col-contact": {
+    "props": {
+      "blockClass": [
+        "rigth-col-contact"
+      ],
+      "width": "45%"
+    },
+    "children": [
+      "form#contact"
+    ]
+  },
+
+  "form#contact": {
+    "props": {
+      "entity": "contact",
+      "schema": "contact",
+      "blockClass": "form-contact"
+    },
+    "children": [
+      "form-input.text#name",
+      "form-input.text#email",
+      "form-input.text#phone",
+      "form-input.text#order",
+      "form-input.textarea#message",
+      "form-input.checkbox#newsletter",
+      "form-submit#contact"
+    ],
+    "blocks": [
+      "form-success#contact-us"
+    ]
+  },
+
+  "form-input.text#name": {
+    "props": {
+      "label": "Nombre y Apellido",
+      "pointer": "#/properties/name",
+      "blockClass": ["contact"]
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "label": "Email",
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "label": "Teléfono",
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.text#order": {
+    "props": {
+      "label": "N° Orden",
+      "pointer": "#/properties/order"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "label": "Mensaje",
+      "pointer": "#/properties/message"
+    }
+  },
+  "form-input.checkbox#newsletter": {
+    "props": {
+      "label": "Marque esta casilla para aceptar recibir nuestras comunicaciones, promociones y newsletters por correo electrónico.",
+      "pointer": "#/properties/newsletter"
+    }
+  },
+  "form-submit#contact": {
+    "props": {
+      "label": "enviar"
+    }
+  },
+
+  "form-success#contact-us": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "Thanks for reaching out! We will come back shortly.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+
+
+
+
+
+  // VIEJO
+  // "rich-text#contact-us": {
+  //   "props": {
+  //     "text": "## Contact Us"
+  //   }
+  // },
+
+ 
+
+  // "form-success#contact-us": {
+  //   "children": [
+  //     "rich-text#success-submit"
+  //   ]
+  // },
+  // "rich-text#success-submit": {
+  //   "props": {
+  //     "text": "Thanks for reaching out! We will come back shortly.",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+
+  // "form-input.text#title": {
+  //   "props": {
+  //     "pointer": "#/properties/title"
+  //   }
+  // },
+  // "form-input.text#name": {
+  //   "props": {
+  //     "pointer": "#/properties/name"
+  //   }
+  // },
+  // "form-input.text#email": {
+  //   "props": {
+  //     "pointer": "#/properties/email"
+  //   }
+  // },
+  // "form-input.textarea#message": {
+  //   "props": {
+  //     "pointer": "#/properties/message"
+  //   }
+  // },
+
+  // "form-submit#contact": {
+  //   "props": {
+  //     "label": "Submit"
+  //   }
+  // }
+}

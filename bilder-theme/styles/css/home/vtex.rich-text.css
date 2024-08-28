@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,200&display=swap');
+/* DEALS */
+
+.wrapper--deals-title {
+    display: block;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+.wrapper--deals-description {
+    font-weight: 300;
+    padding-bottom: 5px;
+    font-size: 11px;
+}
+.wrapper--deals-title,
+.wrapper--deals-description {
+    color: #3136a3;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    height: 15px;
+}
+.paragraph--deals-title,
+.paragraph--deals-description {
+    line-height: 0;
+    height: 15px;
+}
+
+/* FIN DEALS */
+
+/* CATEGORIES */
+
+.wrapper--title-categories {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    color: #3136a3;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700 !important;
+    height: 80px !important;
+    padding-left: 20px;
+}
+
+/* FIN CATEGORIES */
+
+/* banner productos */
+
+.container--text_banner{
+  position: absolute !important;
+  height: 310px !important;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-start ;
+  align-items: center;
+}
+.wrapper--text_banner{
+  width: 90%;
+  padding-left: 15px;
+}
+.paragraph--text_banner{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+/* fin banner productos */
+
+/* CATEGORIES / TIENDAS / MARCAS  */
+ 
+.container--title-tiendasbilder,
+.container--title-marcas{
+  margin-top: 50px !important;
+}
+.paragraph--title-marcas,
+.paragraph--title-tiendasbilder,
+.paragraph--subtitle-marcas,
+.paragraph--subtitle-tiendasbilder {
+  line-height: 0px !important;
+}
+.container--title-tiendasbilder,
+.container--subtitle-tiendasbilder {
+  background-color: #B7D612;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+.container--title-marcas,
+.container--subtitle-marcas {
+  background-color: #3136a3;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.strong--title-marcas, 
+.strong--title-tiendasbilder {
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+}
+.strong--subtitle-marcas, 
+.strong--subtitle-tiendasbilder {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 4.2px;
+}
+.wrapper--title-tiendasbilder, 
+.wrapper--title-marcas {
+  height: 50px;
+}
+.container--title-tiendasbilder,
+.container--title-marcas{
+  margin-top: 20px;
+}
+.container--subtitle-tiendasbilder,
+.container--subtitle-marcas{
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  align-items: start;
+}
+.wrapper--subtitle-tiendasbilder,
+.wrapper--subtitle-marcas {
+  height: 40px;
+  margin-top: -5px;
+}
+.wrapper--subtitle-marcas{
+  letter-spacing: 3px;
+}
+/* FIN CATEGORIES / TIENDAS / MARCAS  */

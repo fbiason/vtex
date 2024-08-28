@@ -1,0 +1,5 @@
+.flexRowContent--orderByAndSwitcher{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start !important;
+}

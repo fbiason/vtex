@@ -1,0 +1,199 @@
+ /* DEALS */
+
+.flexRow--deals {
+    background-color: transparent;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 90px;
+    background-color: #dedede !important;
+    border-radius: 6px !important;
+}
+.flexRowContent--deals {
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+}
+.flexCol--dealsB {
+    border-right: 1px solid #571E98 !important;
+}
+.flexRow--deals .stretchChildrenWidth {
+    align-items: center;
+}
+.flexCol--deals {
+    display: inline-flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 50px;
+}
+.flexCol--border {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.flexCol--title-description {
+    height: 50px !important;
+    align-items: start;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.flexColChild--deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1550px) {
+    .flexRow--deals {
+        max-width: 1381px;
+    }
+    .flexRowContent--deals {
+        height: 76px;
+    }
+}
+
+/* FIN DEALS */
+
+/* CATEGORIES */
+
+.flexRow--categories {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 1100px !important;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+/* FIN CATEGORIES */
+
+/* PRODUCT CARD  */
+
+@media (min-width: 1540px){
+  .flexRow--product-container{
+    display: flex;
+  }
+}
+.flexRow--product-container{
+  height: 310px !important;
+  margin: 0px 13%;
+  margin-top: 40px !important;
+  padding: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.flexRow--product-container :global(.vtex-store-components-3-x-container){
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  min-width: 100%;
+}
+.flexRow--banner-container{
+  margin-top: 12px;
+}
+.flexRow--banner-normal{
+  margin-right: 22px;
+  width: 170px !important;
+  min-width: 170px !important;
+}
+.flexRowContent--banner-container{
+  position: relative;
+  height: 305px !important;
+}
+.flexRowContent--banner-container:last-child {
+  position: absolute;
+  max-width: 170px;
+}
+.flexRowContent--product-container{
+  justify-content: center;
+}
+.flexRowContent--product-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: fit-content !important;
+  min-width: 170px;
+}
+
+.flexRow--price-savings{
+  margin-top: 13px !important;
+  height: 18px !important;
+  margin-bottom: 12px !important;
+  padding: 0 !important;
+} 
+
+/* FIN PRODUCT CARD  */
+
+/* PROOCIONAL */
+
+.flexRow--promocional{
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 12%;
+}
+
+/* PROOCIONAL */
+
+
+/* MARCAS SLIDER */
+
+.flexRow--marcas-slider {
+  margin-top: 30px;
+  padding: 0 15%;
+}
+
+/* FIN MARCAS SLIDER */
+
+/* MARCAS */
+
+.flexRow--marcas {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 0 12%;
+}
+
+/* FIN MARCAS */
+
+/* NEWSLETTER */
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.flexRow--newsletter-container {
+  height: 219px !important;
+  background: #3136A3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--newsletter {
+  width: 1053px !important;
+  height: 181.171px !important;
+  display: flex !important;
+  justify-content: flex-start;
+  border-radius: 34px;
+  overflow: hidden;
+}
+
+.flexCol--newsletter-pic {
+  height: 181.171px !important;
+  width: fit-content !important;
+}
+
+.flexColChild--newsletter-pic {
+  height: 181.171px !important;
+}
+
+.flexRowContent--newsletter .stretchChildrenWidth {
+  width: fit-content !important;
+}
+
+/* FIN NEWSLETTER */

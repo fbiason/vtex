@@ -1,0 +1,114 @@
+.galleryTitle--layout::before {
+    content: ' • ';
+}
+
+.galleryTitle--layout {
+    list-style: circle;
+    font-size: 24px;
+    color: #3136A3;
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    padding-left: 15px;
+}
+
+.searchResultContainer--search-result{
+    padding: 20px 12%;
+}
+.totalProducts--layout{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px !important;
+}
+.filter__container--title{
+    display: none;
+}
+.filter__container{
+    padding: 0 15px;
+    width: 200px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.filterSelected .filterTitleSpan::before {
+    content: 'FILTROS APLICADOS';
+    font-size: 16px;
+}
+.filterSelected .filterTitleSpan{
+    font-size: 0px;
+}
+
+.filterTitleSpan {
+    color: #000;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.filterItem :global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.orderByButton{
+    width: 300px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 1px solid rgba(76, 82, 89, 0.65);
+    background: #FFF;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+.filterPopupTitle{
+    font-family: Poppins;
+}
+
+.gallery{
+    padding-left: 0 !important;
+}
+
+.buttonShowMore--ver-mas :global(.vtex-button__label){
+    font-size: 0px;
+}
+.buttonShowMore--ver-mas :global(.vtex-button__label)::before{
+    content: 'Ver más';
+    color: #363636;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.buttonShowMore--ver-mas :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+    margin: 10px 0;
+}
+.filter__container--priceRange :global(.vtex-slider__selector){
+    background-color: #C7DE00 !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: -2px;
+}
+.filter__container--priceRange :global(.vtex-slider__base-internal){
+    background-color: #4C5259;
+}

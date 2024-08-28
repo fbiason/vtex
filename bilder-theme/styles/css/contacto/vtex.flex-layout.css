@@ -1,0 +1,107 @@
+.flexRow--row-contact {
+    padding: 100px 20%;
+}
+.flexRow--contact-container {
+    background: #E9E4E4;
+    width: 1073px;
+    border-radius: 68px;
+    border: 37px solid #E9E4E4;
+}
+
+.flexRowContent--contact-container{
+    gap: 30px;
+}
+
+.flexRow--rigth-col-contact{
+    border-radius: 57px;
+    background: #C7DE00;
+    padding: 50px;
+}
+.flexRow--rigth-col-contact :global(.vtex-input){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content !important;
+    max-height: fit-content;
+    margin-bottom: 20px;
+}
+.flexRow--rigth-col-contact :global(.vtex-input__label){
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 8px;
+}
+.flexRow--rigth-col-contact :global(.vtex-styleguide-9-x-input) {
+    height: 50px !important;
+    width: 100%;
+    border-radius: 13px !important;
+    border: 1px solid #E2E1E5;
+    outline: none;
+}
+
+.flexRow--rigth-col-contact :global(.vtex-input-prefix__group){
+    outline: none;
+    border: none;
+    height: fit-content;
+
+}
+
+.flexRow--rigth-col-contact :global(.vtex-styleguide-9-x-input):focus {
+    outline: none;
+    padding: 10px 15px;
+}
+
+
+.flexRow--rigth-col-contact :global(.vtex-checkbox__label) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.flexRow--rigth-col-contact :global(.vtex-textarea__label) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 8px;
+}
+
+.flexRow--rigth-col-contact :global(.vtex-textarea__input) {
+    height: 100px !important;
+    width: 100%;
+    border-radius: 13px !important;
+    border: 1px solid #E2E1E5;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+/* .flexRow--rigth-col-contact :global(.vtex-checkbox__inner-container) {
+    background-color: #fff !important;
+} */
+.flexRow--rigth-col-contact :global(.vtex-button) {
+    width: 114px;
+    height: 45px;
+    background-color: #4638AC;
+    border: 1px solid #4638AC;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--rigth-col-contact :global(.vtex-button__label) {
+    color: #fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.33px;
+    width: fit-content;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+}

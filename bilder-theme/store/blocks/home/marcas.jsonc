@@ -1,0 +1,95 @@
+{
+    "rich-text#title-marcas": {
+        "props": {
+            // "text": "**<h2>Nuestras Marcas</h2>**\nAliados en tu proyecto",
+            "text": "**Nuestras Marcas**",
+            "blockClass": "title-marcas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-2"
+        }
+    },
+    "rich-text#subtitle-marcas": {
+        "props": {
+            "text": "Aliados en tu proyecto",
+            "blockClass": "subtitle-marcas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#marcas": {
+        "title": "marcas",
+        "children": [
+            "list-context.image-list#marcas"
+        ],
+        "props": {
+            "widh": "100%",
+            "blockClass": "marcas"
+        }
+    },
+    "list-context.image-list#marcas": {
+        "children": [
+            "slider-layout#marcas"
+        ],
+        "props": {
+            "blockClass": "marcas",
+            "preload": true,
+            "height": "250",
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/24f559da-7f7f-4f07-989d-1e4cb5a2dc51___175ce3270a5b288c513f1d193bd01cda.png",
+                    "description": "muebles de interior"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/1d724cfe-91c4-4b1f-b28f-d85344d214e0___9fccc19677b9bbd5bd2dcca40ed5ec1e.png",
+                    "description": "electro"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/852b5b86-3641-4241-8d2b-326330ff9f5c___054876a00341305253bccb8a0f12bd5e.png",
+                    "description": "herramientas"
+                },
+                {
+                    "loading": "eager",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/24f559da-7f7f-4f07-989d-1e4cb5a2dc51___175ce3270a5b288c513f1d193bd01cda.png",
+                    "description": "muebles de interior"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/1d724cfe-91c4-4b1f-b28f-d85344d214e0___9fccc19677b9bbd5bd2dcca40ed5ec1e.png",
+                    "description": "electro"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/852b5b86-3641-4241-8d2b-326330ff9f5c___054876a00341305253bccb8a0f12bd5e.png",
+                    "description": "herramientas"
+                },
+                {
+                    "loading": "eager",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/24f559da-7f7f-4f07-989d-1e4cb5a2dc51___175ce3270a5b288c513f1d193bd01cda.png",
+                    "description": "muebles de interior"
+                },
+                {
+                    "loading": "eager",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/24f559da-7f7f-4f07-989d-1e4cb5a2dc51___175ce3270a5b288c513f1d193bd01cda.png",
+                    "description": "muebles de interior"
+                }
+            ]
+        }
+    },
+    "slider-layout#marcas": {
+        "props": {
+            "blockClass": "marcas",
+            "itemsPerPage": {
+                "desktop": 7,
+                "tablet": 3,
+                "phone": 3
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        }
+    }
+}

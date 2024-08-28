@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Top Header */
+
+.menuContainerNav--top-header-title{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* FIN Top Header */
+
+/* Header */
+
+.menuContainer--departments{
+    display: flex;
+    gap: 25px;
+}
+
+.styledLinkContainer--department{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.styledLinkContent--department{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.menuItem--menu-button--isOpen {
+    justify-content: center;
+    text-align: center;
+}
+
+.styledLinkContent--menu-button {
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold; 
+    padding: 5px 10px;
+    background-color: transparent; 
+}
+
+.styledLinkContent--menu-button:hover {
+    background-color: #e0d4ff;
+}
+
+.styledLinkContent--menu-button.active {
+    background-color: #f4f0ff; 
+    color: #552184; 
+}
+
+/* FIN Header */

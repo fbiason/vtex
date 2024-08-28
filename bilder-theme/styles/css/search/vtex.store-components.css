@@ -1,0 +1,32 @@
+/* search bar */
+
+.searchBarContainer {
+    display: flex !important;
+    align-items: center;
+    width: 650px !important;
+}
+.searchBarContainer :global(.vtex-input__suffix) {
+    height: 35px;
+    border-radius: 0 20px 20px 0 !important;
+    background-color: #fff;
+}
+.autoCompleteOuterContainer {
+    height: 35px !important;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: none !important;
+}
+.searchBarIcon--search {
+    height: 35px !important;
+    color: #626262 !important;
+}
+
+/* fin search bar */
+
+/* PLP */
+
+.imageElement--banner_plp{
+    width: 100%;
+}
+
+/* FIN PLP */

@@ -1,0 +1,26 @@
+.wrapper--top-header-title {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.paragraph--top-header-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper--categories-label{
+    color: white;
+    margin-right: 1rem;
+        align-items: start;
+}
+
+.paragraph--location-text {
+   background-color: #f4f0ff;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    display: flex;
+}

@@ -1,0 +1,408 @@
+{
+  "vtex.menu@2.x:menu#menu": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer"
+    },
+    "children": [
+      "rich-text#menu-title-menu",
+      "menu-item#tiendas",
+      "menu-item#obragruesa",
+      "menu-item#mitaddeobra",
+      "menu-item#finaldeobra",
+      "menu-item#equipamentos",
+      "menu-item#deco"
+    ]
+  },
+  "rich-text#menu-title-menu": {
+    "props": {
+      "text": "MENÚ",
+      "blockClass": "footer-titles"
+    }
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#obragruesa": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-obra-gruesa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Obra Gruesa",
+        "text": "Obra Gruesa"
+      }
+    }
+  },
+  "menu-item#mitaddeobra": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-mitad-de-obra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mitad de Obra",
+        "text": "Mitad de Obra"
+      }
+    }
+  },
+  "menu-item#finaldeobra": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-final-de-obra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Final de Obra",
+        "text": "Final de Obra"
+      }
+    }
+  },
+  "menu-item#equipamentos": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-equipamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Equipamentos",
+        "text": "Equipamentos"
+      }
+    }
+  },
+  "menu-item#deco": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-deco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Deco y Diseño",
+        "text": "Deco y Diseño"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#enlaces": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer"
+    },
+    "children": [
+      "rich-text#menu-title-enlaces",
+      "menu-item#home",
+      "menu-item#quienesSomos",
+      "menu-item#contacto"
+    ]
+  },
+  "rich-text#menu-title-enlaces": {
+    "props": {
+      "text": "ENLACES",
+      "blockClass": "footer-titles"
+    }
+  },
+  "menu-item#home": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      }
+    }
+  },
+  "menu-item#quienesSomos": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-quienesSomos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Quienes somos?",
+        "text": "Quienes somos?"
+      }
+    }
+  },
+  "menu-item#contacto": {
+    "props": {
+      "blockClass": "footer",
+      "id": "menu-item-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#qr": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-qr"
+    },
+    "children": [
+      "image#qr"
+    ]
+  },
+  "image#qr": {
+    "props": {
+      "blockClass": "qr",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/0688923e-17e8-4630-afb1-9a9e8e93ede7___1454dc92eedeafd8551225e382fab72b.png",
+      "maxHeight": 62
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#smartphones": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+
+  "menu-item#videogames": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Videogames",
+        "text": "Videogames"
+      }
+    }
+  },
+
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "TVs"
+      }
+    }
+  },
+
+
+
+ 
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      // "menu-item#shorts",
+      "menu-item#tank-tops",
+      "menu-item#shirts",
+      "menu-item#sweatshirt"
+      // "menu-item#cropped"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+
+
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  }
+}

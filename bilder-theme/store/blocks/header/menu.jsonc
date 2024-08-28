@@ -1,0 +1,124 @@
+{
+    "vtex.menu@2.x:menu#menu-desktop": {
+        "props": {
+            "blockClass": "departments",
+            "experimentalOptimizeRendering": true
+        },
+        "children": [
+            "menu-item#category-tiendas",
+            "menu-item#category-obragruesa",
+            "menu-item#category-mitadeobra",
+            "menu-item#category-finaldeobra",
+            "menu-item#category-equipamentos",
+            "menu-item#category-decoydiseno"
+        ]
+    },
+    "menu-item#category-tiendas": {
+        "props": {
+            "blockClass": "department",
+            "id": "tiendas",
+            "type": "custom",
+            "itemProps": {
+                "text": "Tiendas",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    },
+    "menu-item#category-obragruesa": {
+        "props": {
+            "blockClass": "department",
+            "id": "obra-gruesa",
+            "type": "custom",
+            "itemProps": {
+                "text": "Obra Gruesa",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    },
+    "menu-item#category-mitadeobra": {
+        "props": {
+            "blockClass": "department",
+            "id": "mitad-obra",
+            "type": "custom",
+            "itemProps": {
+                "text": "Mitad de Obra",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    },
+    "menu-item#category-finaldeobra": {
+        "props": {
+            "blockClass": "department",
+            "id": "final-obra",
+            "type": "custom",
+            "itemProps": {
+                "text": "Final de Obra",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    },
+    "menu-item#category-equipamentos": {
+        "props": {
+            "blockClass": "department",
+            "id": "equipamentos",
+            "type": "custom",
+            "itemProps": {
+                "text": "Equipamentos",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    },
+    "menu-item#category-decoydiseno": {
+        "props": {
+            "blockClass": "department",
+            "id": "deco&diseno",
+            "type": "custom",
+            "itemProps": {
+                "text": "Deco & Diseño",
+                "type": "internal",
+                "href": "/"
+            },
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 0
+            },
+            "iconPosition": "right"
+        }
+        // "blocks": ["vtex.menu@2.x:submenu#herramientas-electricas"]
+    }
+}

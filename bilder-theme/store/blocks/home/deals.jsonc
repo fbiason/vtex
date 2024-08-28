@@ -1,0 +1,136 @@
+{
+  "flex-layout.row#deals": {
+    "title":"Envio / Retiro / Cuotas",
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals1": {
+    "props": {
+      "blockClass": ["deals", "dealsB"]
+    },
+    "children": [
+      "image#deal1",
+      "flex-layout.col#deal1-title-description"
+    ]
+  },
+  "flex-layout.col#deal1-title-description": {
+    "props": {
+      "blockClass": "title-description"
+    },
+    "children": [
+      "rich-text#deal1-title",
+      "rich-text#deal1-description"
+    ]
+  },
+  "image#deal1": {
+    "title": "img / Envio a todo el pais",
+    "props": {
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/ad4549a4-6268-4096-8ef7-7ea27b024343___f2c6f9d93d9fde1c6484399760c10f9c.svg",
+      // "maxHeight": "4rem"
+      // "height": "4rem",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal1-title": {
+    "title": "title",
+    "props": {
+      "text": "Envíos a todo el país",
+      "blockClass": "deals-title"
+    }
+  },
+  "rich-text#deal1-description": {
+    "title": "description",
+    "props": {
+      "text": "Entrega puerta a puerta",
+      "blockClass": "deals-description"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "props": {
+      "blockClass": ["deals", "border"]
+    },
+    "children": [
+      "image#deal2",
+      "flex-layout.col#deal2-title-description"
+    ]
+  },
+  "flex-layout.col#deal2-title-description": {
+    "props": {
+      "blockClass": "title-description"
+    },
+    "children": [
+      "rich-text#deal2-title",
+      "rich-text#deal2-description"
+    ]
+  },
+  "image#deal2": {
+    "title": "img / Retira Gratis",
+    "props": {
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/a78c81c5-30ee-4125-91ce-4cf9bbee4374___ac17c1ccbb4c05aba1e0cd520cea269b.svg",
+      // "maxHeight": "2rem",
+      // "height": "4rem",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal2-title": {
+    "title": "title",
+    "props": {
+      "text": "Retirá Gratis",
+      "blockClass": "deals-title"
+    }
+  },
+  "rich-text#deal2-description": {
+    "title": "description",
+    "props": {
+      "text": "Lunes a Sábados de 9 a 20hs",
+      "blockClass": "deals-description"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "props": {
+      "blockClass": "deals"
+    },
+    "children": [
+      "image#deal3",
+      "flex-layout.col#deal3-title-description"
+    ]
+  },
+  "flex-layout.col#deal3-title-description": {
+    "props": {
+      "blockClass": "title-description"
+    },
+    "children": [
+      "rich-text#deal3-title",
+      "rich-text#deal3-description"
+    ]
+  },
+  "image#deal3": {
+    "title": "img / Paga en cuotas",
+    "props": {
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/682ba3f6-0602-43d2-b5b5-dbf673253eb7___8000eb7533833a631cea7e3f413b5b95.svg",
+      // "maxHeight": "4rem",
+      // "height": "4rem",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal3-title": {
+    "title": "title",
+    "props": {
+      "text": "Pagá en cuotas",
+      "blockClass": "deals-title"
+    }
+  },
+  "rich-text#deal3-description": {
+    "title": "description",
+    "props": {
+      "text": "Aboná con el medio que prefieras",
+      "blockClass": "deals-description"
+    }
+  }
+}

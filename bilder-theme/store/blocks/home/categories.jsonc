@@ -1,0 +1,107 @@
+{
+    "flex-layout.row#categories": {
+        "title": "categories",
+        "children": [
+            "flex-layout.col#categories"
+        ],
+        "props": {
+            "blockClass": "categories"
+        }
+    },
+    "flex-layout.col#categories": {
+        "title": "categories",
+        "children": [
+            "flex-layout.row#title",
+            "flex-layout.row#categoryList"
+        ],
+        "props": {
+            "blockClass": "categories"
+        }
+    },
+    "flex-layout.row#title": {
+        "title": "categories",
+        "children": [
+            "rich-text#title-categories"
+        ],
+        "props": {
+            "blockClass": "",
+            "widh": "100%"
+
+        }
+    },
+    "rich-text#title-categories": {
+        "title": "title category",
+        "props": {
+            "text": "• Categorías Principales",
+            "blockClass": "title-categories"
+        }
+    },
+    "flex-layout.row#categoryList": {
+        "title": "categoryList",
+        "children": [
+            "list-context.image-list#categories"
+        ],
+        "props": {
+            "blockClass": "",
+            "widh": "100%"
+        }
+    },
+    "list-context.image-list#categories": {
+        "children": [
+            "slider-layout#categories"
+        ],
+        "props": {
+            "blockClass": "categories",
+            "preload": true,
+            "height": "250",
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/bc682249-1550-4d41-a556-be409596cc0e___4feaf82361353d43e471baa0cfbce514.png",
+                    "description": "muebles de interior"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/0c022ad1-a283-4ed3-a9e1-719710e384ab___05517d78425d56e786f071b6b1bb69f3.png",
+                    "description": "electro"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/e14c6577-fd64-4829-bf40-629c5cf562a1___b5d48e11cce6196e0844da2741668ee4.png",
+                    "description": "herramientas"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/0b5ce159-629f-4dc6-bfa9-9a00e273ead7___498bfa077a56e6432ec6374123d3e384.png",
+                    "description": "baño y cocina"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/060edcf9-dfc7-45f4-9489-259651cdafe4___10201007252e303c7ff8bb9d5913f554.png",
+                    "description": "construcción"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/9ba57f9e-b1f4-4eb5-a523-8f70cef49db6___e7ce74fc77ffd655de9d75b2a454703b.png",
+                    "description": "pisos"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/6da95623-586a-4a99-95aa-6fee117c3dfc___85eddda16b97eb3e59cdbe7f12ad6337.png",
+                    "description": "exterior"
+                }
+            ]
+        }
+    },
+    "slider-layout#categories": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 7,
+                "tablet": 3,
+                "phone": 3
+            },
+            "infinite": false,
+            "blockClass": "categories"
+        }
+    }
+}

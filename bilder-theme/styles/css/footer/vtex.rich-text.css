@@ -1,0 +1,38 @@
+.wrapper--footer-titles {
+    color: #000;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container--credits,
+.container--redclover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 3px;
+}
+.container--redclover {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.container--credits {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+
+}
+.wrapper--credits,
+.wrapper--redclover {
+    width: 100% !important;
+    line-height: 0;
+}
+.wrapper--redclover {
+    display: flex;
+    justify-content: flex-start;
+}
+.paragraph--credits {
+    text-align: right;
+}
